@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: grid;
+    gap: 20px;
+
+ 
+}
+
+.encabezado {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px;
+    padding: 20px;
+    border: 0%;
+    background-color: #122135;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cuerpo {
+    display: grid;
+    gap: 20px;
+    padding: 0 20px;
+    background-color: 	#ECF1F8;
+    
+
+}
+
+
+
+
+.fila-superior {
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    gap: 20px;
+    height: 350px; /* Altura igual para ambos */
+    background-color: LightSteelBlue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+   
+}
+
+
+.fila-inferior {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr); /* 3 columnas a la par */
+    gap: 20px;
+    height: 186px;
+    
+    
+}
+
+
+section {
+    border: 100px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+   
+    
+    
+}
+
+
+.pie {
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    text-align: right;
+    background-color: #122135;
+    color: aliceblue;
+
+    
+}
+button{
+    background-color: #122135;
+    color: aliceblue;
+    height: 50px;
+    width: 200px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button:hover{
+
+    background-color: aliceblue;
+    color: #122135;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+h1{
+     justify-content: center;
+    align-items: center;
+    text-align: center
+}
+img{
+    position: relative; /*para desplazar sin arruinar el flujo de la pagina*/
+    top: -15px;
+}

@@ -1,0 +1,96 @@
+.encabezado {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px;
+    padding: 20px;
+    background-color: #122135;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button{
+     background-color: #122135;
+    color: aliceblue;
+    height: 50px;
+    width: 200px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    font-size: 20px;
+    
+ 
+}
+
+
+button:hover {
+    background-color: aliceblue;
+    color: #122135;
+    font-size: 20px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.fila-superior {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px;   
+    
+    background-color: LightSteelBlue;
+    padding: 20px;
+    height: calc(100vh - 70px) /*el 100vh es el tamaño de la pag y lo que le resto es lo del head para que no tenga que escroleear*/
+}
+
+
+.columna-larga {
+    background-color: #ECF1F8;
+    padding: 20px;
+     border-top-right-radius: 30px;
+   border-bottom-right-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-left: 5px solid #122135;
+    height: auto;
+}
+
+
+.columna-derecha {
+    display: flex;
+    flex-direction: column; /*PONE EL RECUADRO ABAJO*/
+    gap: 20px;
+    
+}
+
+.recuadro {
+    background-color: #ECF1F8;
+    padding: 20px;
+     border-top-right-radius: 30px;
+   border-bottom-right-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-left: 5px solid #122135;
+}
+
+
+progress {
+    width:70%;        
+    height: 10px;         
+    border-radius: 10px;      
+}
+
+
+progress::-webkit-progress-bar { /*el webkit es lo que hace a la barra compatible con crome y lo de progres bar indica que es la cosa de atras de la barra*/
+    background-color: #d0daf0; 
+    border-radius: 10px;
+}
+
+
+progress::-webkit-progress-value {
+    background-color: #122135;
+        border-radius: 10px;
+}
+
+.pie {
+
+    padding: 1px;
+
+    text-align: right;
+    background-color: #122135;
+    color: aliceblue;
+
+}

@@ -1,0 +1,91 @@
+/* --- ENCABEZADO --- */
+.encabezado {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px;
+    padding: 20px;
+    background-color: #122135;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button{
+     background-color: #122135;
+    color: aliceblue;
+    height: 50px;
+    width: 200px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    font-size: 20px;
+    
+    
+ 
+}
+
+
+button:hover {
+    background-color: aliceblue;
+    color: #122135;
+    font-size: 20px; 
+      font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.cuerpo {
+    background-color: LightSteelBlue;
+    display: block; 
+    width: 100%;
+}
+
+.fila-superior {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+    padding: 20px;
+    height: auto;
+    background-color:LightSteelBlue ;
+}
+
+
+.a, .b, .c, .d, .e, .f {
+    background-color: #ECF1F8;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    border-left: 5px solid #122135;
+    border-top-right-radius: 30px;
+   border-bottom-right-radius: 30px;
+}
+
+/* --- PIE DE PÁGINA --- */
+.pie {
+    display: block;
+    width: 100%;
+    padding: 1px;
+    box-sizing: border-box; 
+    text-align: right;
+    background-color: #122135;
+    color: aliceblue;
+    
+}
+img{
+   border-top-right-radius: 30px;
+   border-bottom-right-radius: 30px;
+   display: block;
+}
+ section:hover img{
+    display: none;
+}
+
+iframe {
+    display: none;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+  border-color: #ECF1F8;
+  border: 10px;
+}
+
+section:hover iframe{
+
+    display: block;
+}
+
